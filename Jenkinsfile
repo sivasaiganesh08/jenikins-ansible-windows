@@ -1,5 +1,5 @@
 pipeline{
-	agnet any
+	agent any
 	stages{
 		stage("Windows update"){
 		  sh '''chmod 777 changeHos.sh
